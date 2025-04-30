@@ -9,7 +9,7 @@ class StudentGradeApp(ctk.CTk):  # Definisemo klasu nase aplikacije koja nasledj
 
         self.db = Database("StudentRelational.db")  # Pravljenje konekcije ka SQLite bazi podataka
 
-        self.title("Student Grade Management System")  # Postavljanje naslova prozora
+        self.title("Sistem za ocjene")  # Postavljanje naslova prozora
         self.geometry("1400x900")  # Definisanje dimenzija glavnog prozora
         self.configure(fg_color="#2c3e50")  # Postavljanje boje pozadine
 
